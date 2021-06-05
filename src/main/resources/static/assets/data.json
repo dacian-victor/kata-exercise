@@ -1,0 +1,44 @@
+ {
+    "users" : [
+        { "id": "1", "name": "kiran","email":"kiran@gmail.com" },
+        { "id": "2", "name": "tom","email":"tom@gmail.com" },
+        { "id": "3", "name": "john","email":"john@gmail.com" },
+        { "id": "4", "name": "Frank","email":"frank@gmail.com" }
+    ],
+    "cols" : [
+        { "field": "id", "header": "Id" },
+        { "field": "name", "header": "Name" },
+        { "field": "email", "header": "Email" },
+        { "field": "account", "header": "Account" },
+        { "field": "requisition", "header": "Requisition" },
+        { "field": "valid", "header": "Valid" }
+    ],
+    "filesTree" : [
+        {
+            "label": "Messages lists",
+            "children": [{
+                    "label": "Sanctions",
+                    "key": "Sanctions Input Groups",
+                    "children": []
+                },
+                {
+                    "label": "Automatic",
+                    "key": "Automatic Input Groups",
+                    "children": []
+                 },
+                {
+                    "label": "Financial",
+                    "key": "Financial Input Groups",
+                    "children": []
+                 }]
+        },
+        {
+            "label": "Severity lists",
+            "children": [
+                {"label": "Low", "key": "LightCyan"},
+                {"label": "Medium", "key": "LemonChiffon"},
+                {"label": "High", "key": "MistyRose"},
+                {"label": "Blocant", "key": "Yellow"}]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "HOME": {
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": "Change language"
+  },
+  "hello world": "Hello world",
+  "home": "Home page",
+  "users": "User profile page",
+  "contact": "Contact Informations",
+  "search": "Searcheable desktop"
+}
+  
